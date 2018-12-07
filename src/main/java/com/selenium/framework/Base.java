@@ -1,16 +1,26 @@
 package com.selenium.framework;
 
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+
+
 public class Base {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public Properties prop;
 
     public WebDriver intializeDriver() throws IOException {
@@ -45,5 +55,17 @@ public class Base {
 
         return driver;
 
+    }
+
+
+    public  void getScreenShot() throws IOException {
+
+       File  src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+        FileUtils.copyFile(src,new File("c://test/screen"+timestamp()+".png"));
+    }
+
+    public String timestamp() {
+        return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
     }
 }
