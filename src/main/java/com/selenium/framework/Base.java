@@ -10,11 +10,12 @@ import java.util.concurrent.TimeUnit;
 
 public class Base {
 
-    WebDriver driver;
+    public WebDriver driver;
+    public Properties prop;
 
     public WebDriver intializeDriver() throws IOException {
 
-        Properties prop = new Properties();
+        prop = new Properties();
         FileInputStream file = new FileInputStream("C:\\Users\\Muthukumar\\Selenium Prepration\\AutomationFramework\\src\\main\\Resources\\data.properties");
 
         prop.load(file);
