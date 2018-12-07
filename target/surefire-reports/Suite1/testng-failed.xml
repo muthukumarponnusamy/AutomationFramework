@@ -9,7 +9,7 @@
       <class name="com.selenium.framework.HomePage">
         <methods>
           <include name="tearDown"/>
-          <include name="basePageNavigation" invocation-numbers="0 1 2 3"/>
+          <include name="basePageNavigation"/>
           <include name="intialize"/>
         </methods>
       </class> <!-- com.selenium.framework.HomePage -->

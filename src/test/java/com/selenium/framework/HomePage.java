@@ -67,6 +67,6 @@ public class HomePage extends Base {
     @AfterTest
     public void tearDown(){
        // driver.quit();
-        //driver=null;
+        driver=null;
     }
 }

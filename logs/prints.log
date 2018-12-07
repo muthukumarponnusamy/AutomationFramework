@@ -1,3 +1,5 @@
-00:54:29.694 [main] INFO  com.selenium.framework.Base - Entered the Email / User Name in the Text Box
-00:54:29.839 [main] INFO  com.selenium.framework.Base - Entered the Password ***** in the Text Box
-00:54:30.707 [main] INFO  com.selenium.framework.Base - Clicked the LogIN Button
+01:39:20.257 [main] DEBUG com.selenium.framework.Base - Clicked the Log in Link 
+01:39:20.410 [main] INFO  com.selenium.framework.Base - Entered the Email / User Name in the Text Box
+01:39:20.503 [main] INFO  com.selenium.framework.Base - Entered the Password ***** in the Text Box
+01:39:21.728 [main] INFO  com.selenium.framework.Base - Clicked the LogIN Button
+01:39:21.774 [main] INFO  com.selenium.framework.Base - Successfully Validated

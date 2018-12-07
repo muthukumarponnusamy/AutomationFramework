@@ -16,15 +16,15 @@ public class listeners implements ITestListener {
 
     public void onTestSuccess(ITestResult result) {
 
+
+    }
+
+    public void onTestFailure(ITestResult result) {
         try {
             baseobj.getScreenShot();
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    public void onTestFailure(ITestResult result) {
-
 
     }
 

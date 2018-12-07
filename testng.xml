@@ -8,6 +8,7 @@
     </test>
     <listeners>
         <listener class-name="com.selenium.framework.listeners"/>
+        <listener class-name="resources.ExtentReporterNG"/>
 
     </listeners>
 </suite>
