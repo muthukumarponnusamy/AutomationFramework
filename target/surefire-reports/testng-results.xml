@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="65867" started-at="2018-12-07T20:08:16Z" finished-at="2018-12-07T20:09:21Z">
+  <suite name="Suite1" duration-ms="44402" started-at="2018-12-07T20:41:06Z" finished-at="2018-12-07T20:41:50Z">
     <groups>
     </groups>
-    <test name="regression" duration-ms="65867" started-at="2018-12-07T20:08:16Z" finished-at="2018-12-07T20:09:21Z">
+    <test name="regression" duration-ms="44402" started-at="2018-12-07T20:41:06Z" finished-at="2018-12-07T20:41:50Z">
       <class name="com.selenium.framework.HomePage">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="intialize" is-config="true" duration-ms="20" started-at="2018-12-07T20:08:16Z" finished-at="2018-12-07T20:08:16Z">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="intialize" is-config="true" duration-ms="17" started-at="2018-12-07T20:41:06Z" finished-at="2018-12-07T20:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="15437" started-at="2018-12-07T20:08:16Z" data-provider="logindetails" finished-at="2018-12-07T20:08:31Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="11384" started-at="2018-12-07T20:41:06Z" data-provider="logindetails" finished-at="2018-12-07T20:41:17Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="16895" started-at="2018-12-07T20:08:31Z" data-provider="logindetails" finished-at="2018-12-07T20:08:48Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="10991" started-at="2018-12-07T20:41:17Z" data-provider="logindetails" finished-at="2018-12-07T20:41:28Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="18911" started-at="2018-12-07T20:08:48Z" data-provider="logindetails" finished-at="2018-12-07T20:09:07Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="10699" started-at="2018-12-07T20:41:28Z" data-provider="logindetails" finished-at="2018-12-07T20:41:39Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="14582" started-at="2018-12-07T20:09:07Z" data-provider="logindetails" finished-at="2018-12-07T20:09:21Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="11290" started-at="2018-12-07T20:41:39Z" data-provider="logindetails" finished-at="2018-12-07T20:41:50Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-12-07T20:09:21Z" finished-at="2018-12-07T20:09:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-07T20:41:50Z" finished-at="2018-12-07T20:41:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

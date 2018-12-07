@@ -1,6 +1,6 @@
-01:39:05.131 [main] DEBUG com.selenium.framework.Base - Clicked the Log in Link 
-01:39:05.278 [main] INFO  com.selenium.framework.Base - Entered the Email / User Name in the Text Box
-01:39:05.376 [main] INFO  com.selenium.framework.Base - Entered the Password ***** in the Text Box
-01:39:07.053 [main] INFO  com.selenium.framework.Base - Clicked the LogIN Button
-01:39:07.116 [main] INFO  com.selenium.framework.Base - Successfully Validated
-01:39:19.461 [main] INFO  com.selenium.framework.Base - Entered in to the URL :http://demowebshop.tricentis.com/
+02:11:36.828 [main] INFO  com.selenium.framework.Base - Entered in to the URL :http://demowebshop.tricentis.com/
+02:11:37.708 [main] DEBUG com.selenium.framework.Base - Clicked the Log in Link 
+02:11:37.858 [main] INFO  com.selenium.framework.Base - Entered the Email / User Name in the Text Box
+02:11:38.018 [main] INFO  com.selenium.framework.Base - Entered the Password ***** in the Text Box
+02:11:38.891 [main] INFO  com.selenium.framework.Base - Clicked the LogIN Button
+02:11:38.945 [main] INFO  com.selenium.framework.Base - Successfully Validated
