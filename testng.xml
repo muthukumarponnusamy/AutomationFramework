@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="regression" >
         <classes>
-            <class name="com.selenium.framework.HomePage" />
+            <class name="com.selenium.framework.RegisterPageTest" />
         </classes>
     </test>
     <listeners>

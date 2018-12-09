@@ -21,8 +21,10 @@ public class HomePage extends Base {
         log.info("Variable Intialized");
     }
 
-    @Test(dataProvider = "logindetails")
-    public void basePageNavigation(String username , String password) throws IOException {
+    //@Test(dataProvider = "logindetails")
+
+    @Test
+    public void loginValidation(String username , String password) throws IOException {
         driver = intializeDriver();
         driver.get(prop.getProperty("URL"));
         log.info("Entered in to the URL :" + prop.getProperty("URL"));
@@ -45,6 +47,8 @@ public class HomePage extends Base {
         log.info("Successfully Validated");
         driver.close();
     }
+
+
 
 
     @DataProvider

@@ -1,85 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="44402" started-at="2018-12-07T20:41:06Z" finished-at="2018-12-07T20:41:50Z">
+  <suite name="Suite1" duration-ms="14041" started-at="2018-12-09T15:20:29Z" finished-at="2018-12-09T15:20:43Z">
     <groups>
     </groups>
-    <test name="regression" duration-ms="44402" started-at="2018-12-07T20:41:06Z" finished-at="2018-12-07T20:41:50Z">
-      <class name="com.selenium.framework.HomePage">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="intialize" is-config="true" duration-ms="17" started-at="2018-12-07T20:41:06Z" finished-at="2018-12-07T20:41:06Z">
+    <test name="regression" duration-ms="14041" started-at="2018-12-09T15:20:29Z" finished-at="2018-12-09T15:20:43Z">
+      <class name="com.selenium.framework.RegisterPageTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:com.selenium.framework.RegisterPageTest@1ab3a8c8]" name="intialize" is-config="true" duration-ms="24" started-at="2018-12-09T15:20:29Z" finished-at="2018-12-09T15:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="11384" started-at="2018-12-07T20:41:06Z" data-provider="logindetails" finished-at="2018-12-07T20:41:17Z">
+        <test-method status="PASS" signature="Register_Valid(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.RegisterPageTest@1ab3a8c8]" name="Register_Valid" duration-ms="13979" started-at="2018-12-09T15:20:29Z" data-provider="registerDetails" finished-at="2018-12-09T15:20:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[yamihushh@gmail.com]]>
+                <![CDATA[muthu]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Logout]]>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test991291913@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tester@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tester@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[male]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="10991" started-at="2018-12-07T20:41:17Z" data-provider="logindetails" finished-at="2018-12-07T20:41:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yamihushh@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Logout]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="10699" started-at="2018-12-07T20:41:28Z" data-provider="logindetails" finished-at="2018-12-07T20:41:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yamihushh@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Logout]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="basePageNavigation" duration-ms="11290" started-at="2018-12-07T20:41:39Z" data-provider="logindetails" finished-at="2018-12-07T20:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yamihushh@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Logout]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.framework.HomePage@333291e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-07T20:41:50Z" finished-at="2018-12-07T20:41:50Z">
+        </test-method> <!-- Register_Valid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.framework.RegisterPageTest@1ab3a8c8]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-09T15:20:43Z" finished-at="2018-12-09T15:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.framework.HomePage -->
+      </class> <!-- com.selenium.framework.RegisterPageTest -->
     </test> <!-- regression -->
   </suite> <!-- Suite1 -->
 </testng-results>

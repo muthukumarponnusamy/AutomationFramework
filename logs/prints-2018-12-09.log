@@ -1,0 +1,6 @@
+20:50:41.651 [main] INFO  com.selenium.framework.Base - STEP 2 :  Click Register Link
+20:50:41.737 [main] INFO  com.selenium.framework.Base - STEP 3 :  Selected Male Gender 
+20:50:41.832 [main] INFO  com.selenium.framework.Base - STEP 4 :  Entered First Name muthu
+20:50:41.920 [main] INFO  com.selenium.framework.Base - STEP 5 :  Entered Last Name kumar
+20:50:42.077 [main] INFO  com.selenium.framework.Base - STEP 6 :  Entered Email addredd test991291913@gmail.com
+20:50:42.246 [main] INFO  com.selenium.framework.Base - STEP 7 :  Entered intial Password Tester@123
