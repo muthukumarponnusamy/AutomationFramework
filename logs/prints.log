@@ -1,4 +1,4 @@
-20:50:42.359 [main] INFO  com.selenium.framework.Base - STEP 8 :  Entered Confirm Password  Tester@123
-20:50:43.345 [main] INFO  com.selenium.framework.Base - STEP 9 : Clicked register Button  
-20:50:43.387 [main] INFO  com.selenium.framework.Base - Step 10 : Register Confirmation Label : Your registration completed
-20:50:43.387 [main] INFO  com.selenium.framework.Base - Successfully Validated
+10:03:07.284 [main] INFO  com.selenium.framework.Base - STEP 6 :  Entered Email addredd test91913@gmail.com
+10:03:07.463 [main] INFO  com.selenium.framework.Base - STEP 7 :  Entered intial Password Tester@123
+10:03:07.548 [main] INFO  com.selenium.framework.Base - STEP 8 :  Entered Confirm Password  Tester@123
+10:03:08.375 [main] INFO  com.selenium.framework.Base - STEP 9 : Clicked register Button  

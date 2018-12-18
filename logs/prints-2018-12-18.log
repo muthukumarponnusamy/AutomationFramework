@@ -1,0 +1,6 @@
+10:02:58.536 [main] INFO  com.selenium.framework.Base - Successfully Validated
+10:03:05.904 [main] INFO  com.selenium.framework.Base -  STEP 1 : Entered in to the URL :http://demowebshop.tricentis.com/
+10:03:06.916 [main] INFO  com.selenium.framework.Base - STEP 2 :  Click Register Link
+10:03:06.985 [main] INFO  com.selenium.framework.Base - STEP 3 :  Selected Male Gender 
+10:03:07.077 [main] INFO  com.selenium.framework.Base - STEP 4 :  Entered First Name muthu
+10:03:07.155 [main] INFO  com.selenium.framework.Base - STEP 5 :  Entered Last Name kumar

@@ -3,16 +3,17 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
   <listeners>
     <listener class-name="com.selenium.framework.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
   <test thread-count="5" verbose="0" name="regression(failed)">
     <classes>
-      <class name="com.selenium.framework.HomePage">
+      <class name="com.selenium.framework.RegisterPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="basePageNavigation"/>
           <include name="intialize"/>
+          <include name="Register_Valid" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.selenium.framework.HomePage -->
+      </class> <!-- com.selenium.framework.RegisterPageTest -->
     </classes>
   </test> <!-- regression(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
