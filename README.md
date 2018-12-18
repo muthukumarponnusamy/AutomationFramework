@@ -40,6 +40,8 @@ List down Features :
 16. RECENTLY VIEWED PRODUCTS
 17. community POLL
 18. categories
+19. Reviews and Existing reviews
+20. New Products
 
 
 
